@@ -1,0 +1,44 @@
+{
+  "name" : "Mini-Max Sum",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1 2 3 4 5\n",
+    "output" : "10 14\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1 3 5 7 9",
+    "output" : "16 24",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 4 3 2 1",
+    "output" : "10 14",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.MiniMaxSum",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.15",
+  "contestName" : "HackerRank - Algorithms - Warmup",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,39 @@
+{
+  "name" : "900 - Brick Wall Patterns",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\n2\n3\n0\n",
+    "output" : "1\n2\n3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "50\n0",
+    "output" : "20365011074",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/UVA",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "UVA.BrickWallPatterns",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.04",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

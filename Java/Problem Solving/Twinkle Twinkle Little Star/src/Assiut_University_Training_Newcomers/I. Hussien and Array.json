@@ -1,0 +1,39 @@
+{
+  "name" : "I. Hussien and Array",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n8 8 9 5 9\n",
+    "output" : "Lucky\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n3 3 3 5 3\n",
+    "output" : "Unlucky\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/Assiut_University_Training_Newcomers",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "Assiut_University_Training_Newcomers.IHussienAndArray",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.11",
+  "contestName" : "Assiut University Training - Newcomers",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

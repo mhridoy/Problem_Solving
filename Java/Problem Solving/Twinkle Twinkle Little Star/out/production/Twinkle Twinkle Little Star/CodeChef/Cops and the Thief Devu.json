@@ -1,0 +1,34 @@
+{
+  "name" : "Cops and the Thief Devu",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n4 7 8\n12 52 56 8\n2 10 2\n21 75\n2 5 8\n10 51\n",
+    "output" : "0\n18\n9\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/CodeChef",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeChef.CopsAndTheThiefDevu",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.25",
+  "contestName" : "CodeChef - Practice(Beginner)",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

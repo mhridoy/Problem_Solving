@@ -1,0 +1,39 @@
+{
+  "name" : "A. Zoning Restrictions Again",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 3 3\n1 1 1\n2 2 3\n3 3 2\n",
+    "output" : "14\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 10 2\n2 3 8\n3 4 7\n",
+    "output" : "262\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.AZoningRestrictionsAgain",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.04",
+  "contestName" : "Codeforces Round #557 (Div. 2) [based on Forethought Future Cup - Final Round]",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

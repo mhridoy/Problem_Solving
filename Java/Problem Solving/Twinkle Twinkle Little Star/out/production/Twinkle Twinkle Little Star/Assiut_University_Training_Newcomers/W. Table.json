@@ -1,0 +1,39 @@
+{
+  "name" : "W. Table",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "11\n",
+    "output" : "Competitive programming\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "23\n",
+    "output" : "Not found\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/Assiut_University_Training_Newcomers",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "Assiut_University_Training_Newcomers.WTable",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.10",
+  "contestName" : "Assiut University Training - Newcomers",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

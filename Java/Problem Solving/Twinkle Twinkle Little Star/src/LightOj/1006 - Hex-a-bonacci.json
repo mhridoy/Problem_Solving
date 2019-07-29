@@ -1,0 +1,44 @@
+{
+  "name" : "1006 - Hex-a-bonacci",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n0 1 2 3 4 5 20\n3 2 1 5 0 1 9\n4 12 9 4 5 6 15\n9 8 7 6 5 4 3\n3 4 3 2 54 5 4\n",
+    "output" : "Case 1: 216339\nCase 2: 79\nCase 3: 16636\nCase 4: 6\nCase 5: 54\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n10000007 1 2 3 4 5 0\n0 10000008 2 3 4 5 1\n0 1 10000009 3 4 5 2\n0 1 2 10000007 4 5 3\n0 1 2 3 10000007 4 4\n0 1 2 3 4 10000007 5",
+    "output" : "Case 1: 0\nCase 2: 1\nCase 3: 2\nCase 4: 0\nCase 5: 0\nCase 6: 0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5\n0 0 0 0 0 0 10000\n52435 52435 52435 52435 52435 52435 7889\n10000007 0 0 0 0 0 0\n9999 9999 9999 9999 9999 9999 9999\n764737943 2068703316 878389972 275564639 316803298 1850617228 2",
+    "output" : "Case 1: 0\nCase 2: 3783887\nCase 3: 0\nCase 4: 4762565\nCase 5: 8389363\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/LightOj",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "LightOj.HexABonacci",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.18",
+  "contestName" : "LightOJ",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

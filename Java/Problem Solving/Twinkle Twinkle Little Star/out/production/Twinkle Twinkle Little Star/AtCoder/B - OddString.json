@@ -1,0 +1,53 @@
+{
+  "name" : "B - OddString",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "atcoder\n",
+    "output" : "acdr\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "aaaa\n",
+    "output" : "aa\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "z\n",
+    "output" : "z\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "fukuokayamaguchi\n",
+    "output" : "fkoaaauh\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "fdsfkjfsjalfajfljsalfjlajfljfldsjlfjalsfjdlajdfljasldfjldsjflsjdfljdslfjldsjfljslfjlasjfdladsjfladsjfljalf",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/AtCoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "AtCoder.BOddString",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.15",
+  "contestName" : "AtCoder Beginner Contest 072",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

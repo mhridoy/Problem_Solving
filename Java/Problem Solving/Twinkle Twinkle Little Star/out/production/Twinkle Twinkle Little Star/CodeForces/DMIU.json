@@ -1,0 +1,34 @@
+{
+  "name" : "DMIU",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6\n101 101\n0 67\n-101 101\n7678123668327637674887634 101\n11010000000000000000 256\n-202202202202000202202202 -101",
+    "output" : "Case 1: divisible\nCase 2: divisible\nCase 3: divisible\nCase 4: not divisible\nCase 5: divisible\nCase 6: divisible\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.D4",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.26",
+  "contestName" : "Virtual Judge - (MIU CSE CLUB) Independence Day \"প্রোগ্রামিং প্রতিযোগিতা ২০১৯\"",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,34 @@
+{
+  "name" : "10929 - You can say 11",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "112233\n30800\n2937\n323455693\n5038297\n112234\n0\n",
+    "output" : "112233 is a multiple of 11.\n30800 is a multiple of 11.\n2937 is a multiple of 11.\n323455693 is a multiple of 11.\n5038297 is a multiple of 11.\n112234 is not a multiple of 11.\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.YouCanSay11",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.28",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

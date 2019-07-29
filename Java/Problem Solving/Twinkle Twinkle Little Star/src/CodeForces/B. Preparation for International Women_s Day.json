@@ -1,0 +1,44 @@
+{
+  "name" : "B. Preparation for International Women's Day",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7 2\n1 2 2 3 2 4 10\n",
+    "output" : "6\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "8 2\n1 2 2 3 2 4 6 10\n",
+    "output" : "8\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "7 3\n1 2 2 3 2 4 5\n",
+    "output" : "4\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.BPreparationForInternationalWomensDay",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.07",
+  "contestName" : "Codeforces Round #544 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

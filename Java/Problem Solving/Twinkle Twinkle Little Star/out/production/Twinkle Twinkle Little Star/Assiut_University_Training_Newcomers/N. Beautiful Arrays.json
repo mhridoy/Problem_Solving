@@ -1,0 +1,34 @@
+{
+  "name" : "N. Beautiful Arrays",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n2\n0 1\n2\n1 2\n2\n5 6\n",
+    "output" : "yes\nyes\nno\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/Assiut_University_Training_Newcomers",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "Assiut_University_Training_Newcomers.NBeautifulArrays",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.12",
+  "contestName" : "Assiut University Training - Newcomers",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

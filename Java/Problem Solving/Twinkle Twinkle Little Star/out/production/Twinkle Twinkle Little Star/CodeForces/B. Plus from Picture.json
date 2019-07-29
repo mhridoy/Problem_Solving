@@ -1,0 +1,59 @@
+{
+  "name" : "B. Plus from Picture",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5 6\n......\n..*...\n.****.\n..*...\n..*...\n",
+    "output" : "YES\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 5\n..*..\n****.\n.*...\n",
+    "output" : "NO\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "7 7\n.......\n...*...\n..****.\n...*...\n...*...\n.......\n.*.....\n",
+    "output" : "NO\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "5 6\n..**..\n..**..\n******\n..**..\n..**..\n",
+    "output" : "NO\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "3 7\n.*...*.\n***.***\n.*...*.\n",
+    "output" : "NO\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "5 10\n..........\n..*.......\n.*.******.\n..*.......\n..........\n",
+    "output" : "NO\n",
+    "index" : 5,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.BPlusFromPicture",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.11",
+  "contestName" : "Codeforces Round #566 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

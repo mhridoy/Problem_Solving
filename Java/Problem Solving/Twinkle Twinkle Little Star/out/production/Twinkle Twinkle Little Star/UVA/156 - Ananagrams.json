@@ -1,0 +1,34 @@
+{
+  "name" : "156 - Ananagrams",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "ladder came tape soon leader acme RIDE lone Dreis peat\nScAlE orb eye Rides dealer NotE derail LaCeS drIed\nnoel dire Disk mace Rob dries\n#\n",
+    "output" : "Disk\nNotE\nderail\ndrIed\neye\nladder\nsoon\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/UVA",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "UVA.Ananagrams",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.02",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

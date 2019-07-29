@@ -1,0 +1,49 @@
+{
+  "name" : "Multiplication Table",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "10 5",
+    "output" : "2",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 13",
+    "output" : "0",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "6 12",
+    "output" : "4",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "100000 1000000000\n",
+    "output" : "16",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/CodeChef",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "CodeChef.MultiplicationTable",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.25",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

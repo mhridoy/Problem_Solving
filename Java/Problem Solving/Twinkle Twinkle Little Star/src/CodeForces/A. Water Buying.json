@@ -1,0 +1,44 @@
+{
+  "name" : "A. Water Buying",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n10 1 3\n7 3 2\n1 1000 1\n1000000000000 42 88\n",
+    "output" : "10\n9\n1000\n42000000000000\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n8 6 2",
+    "output" : "8",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n150450968417 784 982\n",
+    "output" : "73871425493040\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.AWaterBuying",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.19",
+  "contestName" : "Codeforces Round #540 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

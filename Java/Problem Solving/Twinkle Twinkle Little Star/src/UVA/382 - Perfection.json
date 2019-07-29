@@ -1,0 +1,34 @@
+{
+  "name" : "382 - Perfection",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "15 28 6 56 60000 22 496 0\n",
+    "output" : "PERFECTION OUTPUT\n15 DEFICIENT\n28 PERFECT\n6 PERFECT\n56 ABUNDANT\n60000 ABUNDANT\n22 DEFICIENT\n496 PERFECT\nEND OF OUTPUT\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/UVA",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "UVA.Perfection",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.17",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

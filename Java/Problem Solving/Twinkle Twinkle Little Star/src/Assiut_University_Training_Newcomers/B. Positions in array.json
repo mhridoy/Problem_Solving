@@ -1,0 +1,34 @@
+{
+  "name" : "B. Positions in array",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n1 2 100 0 30\n",
+    "output" : "A[0] = 1\nA[1] = 2\nA[3] = 0\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/Assiut_University_Training_Newcomers",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "Assiut_University_Training_Newcomers.BPositionsInArray",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.11",
+  "contestName" : "Assiut University Training - Newcomers",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

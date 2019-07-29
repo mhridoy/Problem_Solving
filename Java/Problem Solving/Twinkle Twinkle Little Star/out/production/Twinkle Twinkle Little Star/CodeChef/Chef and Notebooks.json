@@ -1,0 +1,34 @@
+{
+  "name" : "Chef and Notebooks",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n3 1 2 2\n3 4\n2 2    \n3 1 2 2\n2 3\n2 3    \n3 1 2 2\n1 1\n1 2\n",
+    "output" : "LuckyChef\nUnluckyChef\nUnluckyChef\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/CodeChef",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeChef.ChefAndNotebooks",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.24",
+  "contestName" : "CodeChef - Practice(Easy)",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

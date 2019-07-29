@@ -1,0 +1,34 @@
+{
+  "name" : "1022 - Circle in Square",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n20\n30.091\n87.0921\n",
+    "output" : "Case 1: 343.36\nCase 2: 777.26\nCase 3: 6511.05\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/LightOj",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "LightOj.CircleInSquare",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.22",
+  "contestName" : "LightOJ",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

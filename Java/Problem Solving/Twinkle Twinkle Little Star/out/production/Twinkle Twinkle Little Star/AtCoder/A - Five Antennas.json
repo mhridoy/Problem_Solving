@@ -1,0 +1,39 @@
+{
+  "name" : "A - Five Antennas",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\n2\n4\n8\n9\n15\n",
+    "output" : "Yay!\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "15\n18\n26\n35\n36\n18\n",
+    "output" : ":(\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/AtCoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "AtCoder.AFiveAntennas",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.06",
+  "contestName" : "AtCoder Beginner Contest 123",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

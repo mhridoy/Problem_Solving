@@ -1,0 +1,38 @@
+{
+  "name" : "12554 - A Special \"Happy Birthday\" Song!!!",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\nMom\nDad\nGirlfriend\n",
+    "output" : "Mom: Happy\nDad: birthday\nGirlfriend: to\nMom: you\nDad: Happy\nGirlfriend: birthday\nMom: to\nDad: you\nGirlfriend: Happy\nMom: birthday\nDad: to\nGirlfriend: Rujia\nMom: Happy\nDad: birthday\nGirlfriend: to\nMom: you",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "20\n1.Hridoy\n2.Imran\n3.Farhan\n4.Samia\n5.Lubna\n6.Aka\n8.Tumi\n9.Ami\n10.Jokhon\n11.Tokhon\n12.Rafia\n13.Zarif\n14.Zumi\n15.Omer\n16.Kawser\n17.Ratry\n18.Rimpa\n19.Israt\n20.Urme",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/UVA",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "UVA.ASpecialHappyBirthdaySong",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.02",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,39 @@
+{
+  "name" : "MIST_D",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n1\n4\n3\n4 4 5\n3\n5 5 4",
+    "output" : "Case 1: 1\nCase 2: 110\nCase 3: 1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n5 5\n1 2\n4 5\n1 4",
+    "output" : "Case 1: 8\nCase 2: 3\nCase 3: 8\nCase 4: 4",
+    "index" : 1,
+    "active" : false
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.MIST_D",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.12",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

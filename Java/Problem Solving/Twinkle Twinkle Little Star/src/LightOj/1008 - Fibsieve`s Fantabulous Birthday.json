@@ -1,0 +1,34 @@
+{
+  "name" : "1008 - Fibsieve`s Fantabulous Birthday",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n8\n20\n25\n",
+    "output" : "Case 1: 2 3\nCase 2: 5 4\nCase 3: 1 5\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/LightOj",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "LightOj.FibsievesFantabulousBirthday",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.03",
+  "contestName" : "LightOJ",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

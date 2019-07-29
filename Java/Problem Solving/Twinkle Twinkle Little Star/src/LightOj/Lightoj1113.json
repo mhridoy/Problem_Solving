@@ -1,0 +1,34 @@
+{
+  "name" : "Lightoj1113",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\nVISIT http://uva.onlinejudge.org/\nVISIT http://topcoder.com/\nBACK\nBACK\nBACK\nFORWARD\nVISIT http://acm.sgu.ru/\nBACK\nBACK\nFORWARD\nFORWARD\nFORWARD\nQUIT",
+    "output" : "Case 1:\nhttp://uva.onlinejudge.org/\nhttp://topcoder.com/\nhttp://uva.onlinejudge.org/\nhttp://www.lightoj.com/\nIgnored\nhttp://uva.onlinejudge.org/\nhttp://acm.sgu.ru/\nhttp://uva.onlinejudge.org/\nhttp://www.lightoj.com/\nhttp://uva.onlinejudge.org/\nhttp://acm.sgu.ru/\nIgnored",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/LightOj",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "LightOj.Lightoj1113",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.25",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,39 @@
+{
+  "name" : "S - Generate a String",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "8 1 1\n",
+    "output" : "4",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "8 1 10",
+    "output" : "8\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx524M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.SGenerateAString",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.01",
+  "contestName" : "Virtual Judge - Code to learn Challenge #2 ( Winter has gone )",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

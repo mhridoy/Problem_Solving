@@ -1,0 +1,39 @@
+{
+  "name" : "482 - Permutation Arrays",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\n\n3 1 2\n32.0 54.7 -2",
+    "output" : "54.7\n-2\n32.0\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n\n3 1 2\n32.0 54.7 -2\n\n1 3 2 4\n.004 +5.0e0 0.000007 3",
+    "output" : "54.7\n-2\n32.0\n\n.004\n0.000007\n+5.0e0\n3",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/UVA",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "UVA.PermutationArrays",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.20",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

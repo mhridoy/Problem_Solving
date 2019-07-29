@@ -1,0 +1,49 @@
+{
+  "name" : "A. Repeating Cipher",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6\nbaabbb\n",
+    "output" : "bab\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "10\nooopppssss\n",
+    "output" : "oops\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\nz\n",
+    "output" : "z\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "55\ncooooonnnnttttteeeeeeeeeeeeessssssssttttttttttttttttttt",
+    "output" : "coonteestt",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.ARepeatingCipher",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.10",
+  "contestName" : "Codeforces Round #529 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

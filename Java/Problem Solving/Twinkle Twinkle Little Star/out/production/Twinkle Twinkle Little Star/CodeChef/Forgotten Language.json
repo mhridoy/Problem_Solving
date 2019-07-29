@@ -1,0 +1,39 @@
+{
+  "name" : "Forgotten Language",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n3 2\npiygu ezyfo rzotm\n1 piygu\n6 tefwz tefwz piygu ezyfo tefwz piygu\n4 1\nkssdy tjzhy ljzym kegqz\n4 kegqz kegqz kegqz vxvyj\n",
+    "output" : "YES YES NO \nNO NO NO YES\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n2 2\nHridoy Samia\n3 Imran Farhan Samia\n3 Hello Hridoy Farhan \n",
+    "output" : "YES YES\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/CodeChef",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeChef.ForgottenLanguage",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.24",
+  "contestName" : "CodeChef - Practice(Beginner)",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

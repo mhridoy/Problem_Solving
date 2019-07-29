@@ -1,0 +1,39 @@
+{
+  "name" : "11984 - A Change in Thermal Unit",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n100 0\n0 100\n",
+    "output" : "Case 1: 100.00\nCase 2: 55.56\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "100\n63 21\n62 28\n99 66\n97 96\n73 52\n17 38\n69 37\n25 48\n65 65\n77 34\n56 18\n73 92\n41 66\n95 68\n36 83\n70 46\n41 99\n30 31\n93 5\n23 26\n65 66\n2 41\n55 100\n30 94\n94 86\n3 6\n64 49\n15 76\n10 4\n87 76\n89 46\n10 22\n53 29\n0 7\n100 45\n77 24\n31 30\n96 45\n38 86\n72 25\n98 31\n47 41\n84 61\n31 28\n3 94\n5 84\n5 92\n87 15\n89 58\n70 88\n11 89\n85 46\n92 42\n94 81\n72 96\n94 31\n73 70\n97 40\n68 56\n49 28\n11 71\n63 54\n35 84\n7 49\n36 91\n79 77\n90 13\n55 63\n9 81\n76 15\n46 82\n51 69\n75 85\n40 47\n41 42\n13 55\n75 19\n69 42\n57 10\n67 76\n53 60\n39 45\n74 8\n89 95\n76 84\n31 30\n66 21\n73 82\n95 40\n49 12\n34 2\n88 28\n70 8\n85 56\n31 93\n18 51\n62 50\n58 58\n18 2\n52 12\n",
+    "output" : "Case 1: 74.67\nCase 2: 77.56\nCase 3: 135.67\nCase 4: 150.33\nCase 5: 101.89\nCase 6: 38.11\nCase 7: 89.56\nCase 8: 51.67\nCase 9: 101.11\nCase 10: 95.89\nCase 11: 66.00\nCase 12: 124.11\nCase 13: 77.67\nCase 14: 132.78\nCase 15: 82.11\nCase 16: 95.56\nCase 17: 96.00\nCase 18: 47.22\nCase 19: 95.78\nCase 20: 37.44\nCase 21: 101.67\nCase 22: 24.78\nCase 23: 110.56\nCase 24: 82.22\nCase 25: 141.78\nCase 26: 6.33\nCase 27: 91.22\nCase 28: 57.22\nCase 29: 12.22\nCase 30: 129.22\nCase 31: 114.56\nCase 32: 22.22\nCase 33: 69.11\nCase 34: 3.89\nCase 35: 125.00\nCase 36: 90.33\nCase 37: 47.67\nCase 38: 121.00\nCase 39: 85.78\nCase 40: 85.89\nCase 41: 115.22\nCase 42: 69.78\nCase 43: 117.89\nCase 44: 46.56\nCase 45: 55.22\nCase 46: 51.67\nCase 47: 56.11\nCase 48: 95.33\nCase 49: 121.22\nCase 50: 118.89\nCase 51: 60.44\nCase 52: 110.56\nCase 53: 115.33\nCase 54: 139.00\nCase 55: 125.33\nCase 56: 111.22\nCase 57: 111.89\nCase 58: 119.22\nCase 59: 99.11\nCase 60: 64.56\nCase 61: 50.44\nCase 62: 93.00\nCase 63: 81.67\nCase 64: 34.22\nCase 65: 86.56\nCase 66: 121.78\nCase 67: 97.22\nCase 68: 90.00\nCase 69: 54.00\nCase 70: 84.33\nCase 71: 91.56\nCase 72: 89.33\nCase 73: 122.22\nCase 74: 66.11\nCase 75: 64.33\nCase 76: 43.56\nCase 77: 85.56\nCase 78: 92.33\nCase 79: 62.56\nCase 80: 109.22\nCase 81: 86.33\nCase 82: 64.00\nCase 83: 78.44\nCase 84: 141.78\nCase 85: 122.67\nCase 86: 47.67\nCase 87: 77.67\nCase 88: 118.56\nCase 89: 117.22\nCase 90: 55.67\nCase 91: 35.11\nCase 92: 103.56\nCase 93: 74.44\nCase 94: 116.11\nCase 95: 82.67\nCase 96: 46.33\nCase 97: 89.78\nCase 98: 90.22\nCase 99: 19.11\nCase 100: 58.67\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/UVA",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "UVA.AChangeInThermalUnit",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.05",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

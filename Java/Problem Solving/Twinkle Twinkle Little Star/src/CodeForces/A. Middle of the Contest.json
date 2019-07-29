@@ -1,0 +1,54 @@
+{
+  "name" : "A. Middle of the Contest",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "10:00\n11:00\n",
+    "output" : "10:30\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "11:10\n11:12\n",
+    "output" : "11:11\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "01:02\n03:02\n",
+    "output" : "02:02\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "10:00\n20:12",
+    "output" : "15:06",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "23:00\n23:00",
+    "output" : "00:00",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.AMiddleOfTheContest",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.07",
+  "contestName" : "Codeforces Round #544 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

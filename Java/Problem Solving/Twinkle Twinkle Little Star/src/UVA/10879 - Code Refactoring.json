@@ -1,0 +1,42 @@
+{
+  "name" : "10879 - Code Refactoring",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n120\n210\n10000000\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n10000000\n18\n525\n9862342",
+    "output" : "Case #1: 10000000 = 2 * 5000000 = 4 * 2500000\nCase #2: 18 = 2 * 9 = 3 * 6\nCase #3: 525 = 3 * 175 = 5 * 105\nCase #4: 9862342 = 2 * 4931171 = 7 * 1408906\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4\n15\n12\n18\n20",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/UVA",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "UVA.CodeRefactoring",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.22",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

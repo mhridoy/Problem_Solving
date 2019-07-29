@@ -1,0 +1,44 @@
+{
+  "name" : "ExamA",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5 4\n9 14 6 2 11\n8 4 7 20",
+    "output" : "3",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 1\n2 4 6 8 10\n5",
+    "output" : "1",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1 4\n10\n20 30 40 50",
+    "output" : "0",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.ExamA",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.24",
+  "contestName" : "Codeforces Round #554 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

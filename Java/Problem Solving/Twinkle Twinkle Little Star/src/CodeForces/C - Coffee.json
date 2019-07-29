@@ -1,0 +1,34 @@
+{
+  "name" : "C - Coffee",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "CUSTOM",
+    "fileName" : "coffee.in"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "standard output"
+  },
+  "tests" : [ {
+    "input" : "1\n3 3\ncappuccino 28 34 41\nlatte 25 31 38\nflatwhite 26 33 47\nMohammed small flatwhite\nMostafa large latte\nAhmad small flatwhite",
+    "output" : "Mohammed 60\nMostafa 70\nAhmad 60",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx1048M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.CCoffee",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.24",
+  "contestName" : "Virtual Judge - DUET 2019 - Team Practice Contest 01",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

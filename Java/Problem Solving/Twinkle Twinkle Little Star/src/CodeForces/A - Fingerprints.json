@@ -1,0 +1,39 @@
+{
+  "name" : "A - Fingerprints",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7 3\n3 5 7 1 6 2 8\n1 2 7",
+    "output" : "7 1 2",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 4\n3 4 1 0\n0 1 7 9",
+    "output" : "1 0",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx262M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.AFingerprints",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.26",
+  "contestName" : "Virtual Judge - Faster than Light - Practice Contest #2",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

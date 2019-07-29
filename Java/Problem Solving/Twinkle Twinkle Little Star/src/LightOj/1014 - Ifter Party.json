@@ -1,0 +1,39 @@
+{
+  "name" : "1014 - Ifter Party",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n10 0\n13 2\n300 98\n1000 997\n",
+    "output" : "Case 1: 1 2 5 10\nCase 2: 11\nCase 3: 101 202\nCase 4: impossible\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "128\n731 371\n581 554\n817 799\n21 16\n115 102\n993 347\n613 144\n394 191\n382 239\n563 45\n1 0\n970 678\n501 34\n123 97\n422 288\n135 111\n31 17\n149 89\n39 35\n895 185\n46 31\n521 170\n926 92\n804 338\n528 357\n1023 317\n337 241\n73 64\n383 17\n636 199\n332 157\n931 399\n461 377\n185 5\n224 183\n652 476\n919 67\n926 769\n38 6\n79 63\n22 8\n70 51\n20 5\n171 4\n336 165\n182 134\n551 547\n5 2\n143 141\n486 65\n244 0\n634 417\n261 12\n958 789\n216 3\n863 559\n88 11\n595 395\n49 4\n509 252\n546 462\n27 17\n779 719\n60 48\n220 60\n263 36\n658 221\n601 73\n407 239\n191 2\n545 318\n860 339\n961 590\n738 685\n171 142\n370 131\n913 426\n788 506\n427 419\n563 102\n368 328\n84 80\n697 159\n918 358\n85240 33103\n37752 8447\n79034 10202\n10857 3806\n41300 14280\n81837 56968\n83550 799\n47052 28353\n93790 7597\n56086 39388\n17390 2691\n78456 44858\n40357 795\n28098 3578\n63163 26022\n96625 57471\n55710 54315\n76523 55140\n95317 77541\n45852 15302\n43817 11389\n93384 23341\n34116 5549\n86237 79519\n73550 49009\n95408 25661\n89610 17823\n65798 33301\n66990 20529\n9274 3785\n86226264 53726199\n47373944 36515953\n1612804 387719\n52302927 39388873\n43177837 37251436\n41831113 7395865\n95782122 7456952\n16192602 1748537\n17241646 5747291\n58489088 43964472\n0 0\n2147483647 0\n2147483646 0\n2147483645 0\n",
+    "output" : "Case 1: impossible\nCase 2: impossible\nCase 3: impossible\nCase 4: impossible\nCase 5: impossible\nCase 6: 646\nCase 7: 469\nCase 8: 203\nCase 9: impossible\nCase 10: 74 259 518\nCase 11: 1\nCase 12: impossible\nCase 13: 467\nCase 14: impossible\nCase 15: impossible\nCase 16: impossible\nCase 17: impossible\nCase 18: impossible\nCase 19: impossible\nCase 20: 355 710\nCase 21: impossible\nCase 22: 351\nCase 23: 139 278 417 834\nCase 24: 466\nCase 25: impossible\nCase 26: 353 706\nCase 27: impossible\nCase 28: impossible\nCase 29: 61 122 183 366\nCase 30: 437\nCase 31: 175\nCase 32: 532\nCase 33: impossible\nCase 34: 6 9 10 12 15 18 20 30 36 45 60 90 180\nCase 35: impossible\nCase 36: impossible\nCase 37: 71 142 213 284 426 852\nCase 38: impossible\nCase 39: 8 16 32\nCase 40: impossible\nCase 41: 14\nCase 42: impossible\nCase 43: 15\nCase 44: 167\nCase 45: 171\nCase 46: impossible\nCase 47: impossible\nCase 48: 3\nCase 49: impossible\nCase 50: 421\nCase 51: 1 2 4 61 122 244\nCase 52: impossible\nCase 53: 83 249\nCase 54: impossible\nCase 55: 71 213\nCase 56: impossible\nCase 57: 77\nCase 58: impossible\nCase 59: 5 9 15 45\nCase 60: 257\nCase 61: impossible\nCase 62: impossible\nCase 63: impossible\nCase 64: impossible\nCase 65: 80 160\nCase 66: 227\nCase 67: 437\nCase 68: 88 132 176 264 528\nCase 69: impossible\nCase 70: 3 7 9 21 27 63 189\nCase 71: impossible\nCase 72: 521\nCase 73: impossible\nCase 74: impossible\nCase 75: impossible\nCase 76: 239\nCase 77: 487\nCase 78: impossible\nCase 79: impossible\nCase 80: 461\nCase 81: impossible\nCase 82: impossible\nCase 83: 269 538\nCase 84: 560\nCase 85: 52137\nCase 86: 29305\nCase 87: 11472 17208 22944 34416 68832\nCase 88: 7051\nCase 89: 27020\nCase 90: impossible\nCase 91: 997 82751\nCase 92: impossible\nCase 93: 9577 28731 86193\nCase 94: impossible\nCase 95: 14699\nCase 96: impossible\nCase 97: 19781 39562\nCase 98: 4904 6130 12260 24520\nCase 99: 37141\nCase 100: impossible\nCase 101: impossible\nCase 102: impossible\nCase 103: impossible\nCase 104: 30550\nCase 105: 16214 32428\nCase 106: 70043\nCase 107: 28567\nCase 108: impossible\nCase 109: impossible\nCase 110: 69747\nCase 111: 23929 71787\nCase 112: impossible\nCase 113: 46461\nCase 114: 5489\nCase 115: impossible\nCase 116: impossible\nCase 117: 1225085\nCase 118: impossible\nCase 119: impossible\nCase 120: 8608812 11478416 17217624 34435248\nCase 121: 8832517 17665034 44162585 88325170\nCase 122: 2888813 14444065\nCase 123: 11494355\nCase 124: impossible\nCase 125: 1\nCase 126: 1 2147483647\nCase 127: 1 2 3 6 7 9 11 14 18 21 22 31 33 42 62 63 66 77 93 99 126 151 154 186 198 217 231 279 302 331 341 434 453 462 558 651 662 682 693 906 993 1023 1057 1302 1359 1386 1661 1953 1986 2046 2114 2317 2387 2718 2979 3069 3171 3322 3641 3906 4634 4681 4774 4983 5958 6138 6342 6951 7161 7282 9362 9513 9966 10261 10923 11627 13902 14043 14322 14949 19026 20522 20853 21483 21846 23254 25487 28086 29898 30783 32767 32769 34881 41706 42129 42966 49981 50974 51491 61566 65534 65538 69762 71827 76461 84258 92349 98301 99962 102982 104643 112871 143654 149943 152922 154473 184698 196602 209286 215481 225742 229383 294903 299886 308946 338613 349867 360437 430962 449829 458766 463419 549791 589806 646443 677226 699734 720874 790097 899658 926838 1015839 1049601 1081311 1099582 1292886 1549411 1580194 1649373 2031678 2099202 2162622 2370291 3098822 3148803 3243933 3298746 3848537 4648233 4740582 4948119 6297606 6487866 7110873 7697074 9296466 9896238 10845877 11545611 13944699 14221746 17043521 21691754 23091222 27889398 32537631 34087042 34636833 51130563 65075262 69273666 97612893 102261126 119304647 153391689 195225786 238609294 306783378 357913941 715827882 1073741823 2147483646\nCase 128: 1 5 19 95 22605091 113025455 429496729 2147483645\n",
+    "index" : 1,
+    "active" : false
+  } ],
+  "location" : "src/LightOj",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "LightOj.IfterParty",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.12",
+  "contestName" : "LightOJ",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

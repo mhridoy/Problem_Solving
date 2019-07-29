@@ -1,0 +1,44 @@
+{
+  "name" : "B. Double Matrix",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 2\n2 10\n11 5\n9 4\n3 12\n",
+    "output" : "Possible\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2 3\n2 4 5\n4 5 6\n3 6 7\n8 10 11\n",
+    "output" : "Possible\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3 2\n1 3\n2 4\n5 10\n3 1\n3 6\n4 8\n",
+    "output" : "Impossible\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.BDoubleMatrix",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.04",
+  "contestName" : "Codeforces Round #557 (Div. 2) [based on Forethought Future Cup - Final Round]",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

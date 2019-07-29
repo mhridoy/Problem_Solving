@@ -1,0 +1,39 @@
+{
+  "name" : "Formatted Numbers",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1171123\n",
+    "output" : "1,171,123\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1000123",
+    "output" : "",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/TophCo",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "TophCo.FormattedNumbers",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.06",
+  "contestName" : "Toph",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

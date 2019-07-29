@@ -1,0 +1,48 @@
+{
+  "name" : "11498 - Division of Nlogonia",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\n2 1\n0 33",
+    "output" : "NO",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n2 1\n10 10\n-10 1\n0 33\n4\n-1000 -1000\n-1000 -1000\n0 0\n-2000 -10000\n-999 -1001\n0\n",
+    "output" : "NE\ndivisa\nNO\ndivisa\nNE\nSO\nSE",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "23\n439 328\n188 334\n439 40\n658 957\n78 -423\n-243 319\n-619 430\n701 732\n167 71\n-897 -542\n-453 696\n-861 -775\n-754 -469\n872 897\n-292 -414\n-602 -57\n-101 -172\n-553 919\n37 -487\n562 -389\n16 -911\n166 449\n-741 -994\n-496 138\n2\n964 411\n151 -32\n217 191\n6\n168 -984\n-497 624\n-864 137\n-70 -507\n-677 403\n-636 -713\n-642 522\n12\n-388 207\n-234 -911\n-400 587\n-499 179\n142 950\n-244 -94\n-949 -83\n471 998\n479 168\n970 -301\n608 652\n-181 884\n-387 29\n10\n-189 -987\n-688 -875\n53 146\n270 -301\n691 661\n-620 971\n-238 -114\n-73 -743\n-124 535\n-906 -260\n200 431\n0\n",
+    "output" : "NO\ndivisa\nNE\nSO\nSO\nNO\nNE\nSO\nSO\nNO\nSO\nSO\nNE\nSO\nSO\nSO\nNO\nSO\nSE\nSO\nNO\nSO\nSO\nSO\nSO\nNO\nNO\nNO\nNO\nNO\nNO\nSE\nNO\nSO\nNE\nSE\nSO\nNE\nSE\nSE\nNE\nNE\nSE\nNO\nNE\nNE\nNE\nNO\nNO\nNE\nNE\nNO\nNE\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3\n4 3\n1 2\n3 3\n-100 -20\n0",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/UVA",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "UVA.DivisionOfNlogonia",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.28",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

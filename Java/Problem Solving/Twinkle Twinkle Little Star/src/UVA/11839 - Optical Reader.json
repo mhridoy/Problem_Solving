@@ -1,0 +1,39 @@
+{
+  "name" : "11839 - Optical Reader",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n0 255 255 255 255\n255 255 255 255 0\n255 255 127 255 255\n4\n200 200 200 0 200\n200 1 200 200 1\n1 2 3 4 5\n255 5 200 130 205\n0\n",
+    "output" : "A\nE\nC\nD\n*\n*\nB\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n255 255 255 255 255\n0\n",
+    "output" : "*",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/UVA",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "UVA.OpticalReader",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.20",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

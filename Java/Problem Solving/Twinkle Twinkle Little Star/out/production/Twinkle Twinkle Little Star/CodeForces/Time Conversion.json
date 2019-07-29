@@ -1,0 +1,80 @@
+{
+  "name" : "Time Conversion",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "07:05:45PM\n",
+    "output" : "19:05:45\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "01:00:02AM",
+    "output" : "01:00:02",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "13:02:09PM",
+    "output" : "13:02:09",
+    "index" : 2,
+    "active" : false
+  }, {
+    "input" : "12:05:24AM",
+    "output" : "00:05:24",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "23:00:00PM",
+    "output" : "23:00:00",
+    "index" : 4,
+    "active" : false
+  }, {
+    "input" : "10:35:34PM",
+    "output" : "22:35:34",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "1:00:00PM",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "2:00:00PM",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "3:00:00PM",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "9:00:00PM",
+    "index" : 9,
+    "active" : true
+  }, {
+    "input" : "12:45:54PM",
+    "output" : "12:45:54",
+    "index" : 10,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.TimeConversion",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.15",
+  "contestName" : "HackerRank - Algorithms - Warmup",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

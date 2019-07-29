@@ -1,0 +1,39 @@
+{
+  "name" : "BBBTelephone",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "13\n8380011223344",
+    "output" : "YES",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "15\n807345619350641",
+    "output" : "NO",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/TophCo",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "TophCo.BBBTelephone",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.23",
+  "contestName" : "Toph",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

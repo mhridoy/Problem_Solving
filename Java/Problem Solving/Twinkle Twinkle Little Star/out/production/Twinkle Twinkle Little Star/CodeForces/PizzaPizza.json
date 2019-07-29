@@ -1,0 +1,49 @@
+{
+  "name" : "PizzaPizza",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3",
+    "output" : "2",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4",
+    "output" : "5",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10",
+    "output" : "11",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "10000000000",
+    "output" : "10000000001",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.PizzaPizza",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.08",
+  "contestName" : "Codeforces Round #482 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

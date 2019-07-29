@@ -1,0 +1,54 @@
+{
+  "name" : "Is Prime",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7\n",
+    "output" : "Yes\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5",
+    "output" : "Yes",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "999",
+    "output" : "No",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "4",
+    "output" : "No",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "25",
+    "output" : "No",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/TophCo",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "TophCo.IsPrime",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.02",
+  "contestName" : "Toph",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

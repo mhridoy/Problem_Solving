@@ -1,0 +1,42 @@
+{
+  "name" : "T. Print the sum of all consecutive odd numbers from X",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n4 3\n11 2\n9 0\n",
+    "output" : "21\n24\n0\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n100 0",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n100 100",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/Assiut_University_Training_Newcomers",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "Assiut_University_Training_Newcomers.TPrintTheSumOfAllConsecutiveOddNumbersFromX",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.11",
+  "contestName" : "Assiut University Training - Newcomers",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

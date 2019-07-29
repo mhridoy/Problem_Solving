@@ -1,0 +1,42 @@
+{
+  "name" : "12157 - Tariff Plan",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n2\n61 10\n3\n40 40 40\n2\n60 65\n",
+    "output" : "Case 1: Mile 40\nCase 2: Juice 45\nCase 3: Mile Juice 60\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n2\n100 100\n3\n90 90 90\n4\n120 120 120 120",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4\n2\n29 58\n2\n29 59\n2\n236 1\n3\n90 180 28",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/UVA",
+  "vmArgs" : "-Xmx32M",
+  "mainClass" : "Main",
+  "taskClass" : "UVA.TariffPlan",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.03",
+  "contestName" : "UVa Online Judge",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

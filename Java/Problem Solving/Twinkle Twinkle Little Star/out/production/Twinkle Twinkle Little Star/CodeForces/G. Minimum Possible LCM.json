@@ -1,0 +1,44 @@
+{
+  "name" : "G. Minimum Possible LCM",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n2 4 8 3 6\n",
+    "output" : "1 2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n5 2 11 3 7\n",
+    "output" : "2 4\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "6\n2 5 10 1 10 2\n",
+    "output" : "1 4\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.GMinimumPossibleLCM",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.16",
+  "contestName" : "Codeforces Round #552 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

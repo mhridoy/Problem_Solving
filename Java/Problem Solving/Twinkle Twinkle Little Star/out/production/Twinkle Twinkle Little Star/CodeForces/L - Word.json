@@ -1,0 +1,44 @@
+{
+  "name" : "L - Word",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "HoUse",
+    "output" : "house",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "ViP",
+    "output" : "VIP",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "maTRIx",
+    "output" : "matrix",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/CodeForces",
+  "vmArgs" : "-Xmx262M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeForces.LWord",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.26",
+  "contestName" : "Virtual Judge - Faster than Light - Practice Contest #2",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

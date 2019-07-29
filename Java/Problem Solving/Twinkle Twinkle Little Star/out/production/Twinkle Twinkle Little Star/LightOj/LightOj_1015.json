@@ -1,0 +1,39 @@
+{
+  "name" : "LightOj_1015",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n\n \n\n3\n\n1 5 10\n\n \n\n2\n\n1 99",
+    "output" : "Case 1: 16\n\nCase 2: 100",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n2\n-1 2\n3\n1 2 -10",
+    "output" : "Case 1: 2\nCase 2: 3",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/LightOj",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "LightOj.LightOj_1015",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.08",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "Fast_IO.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
